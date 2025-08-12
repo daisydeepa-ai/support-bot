@@ -253,7 +253,7 @@ Docker Run Commands:
 Docker Build commands:
 
 docker build -t telegram-forward-bot -f docker/Dockerfile .
-ocker run -d \
+docker run -d \
   --name telegram-forward-bot \
   --env-file .env \
   --restart unless-stopped \
